@@ -1,0 +1,1 @@
+This is the first project, called 'OptiChoice', of my Front-end development series which will targeted people who want just start developing.
