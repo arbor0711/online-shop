@@ -137,7 +137,8 @@ transition: all 0.3s ease;
 }
 
 .card {
-
+border-radius: 10px;
+overflow: hidden;
 }
 
 
@@ -150,6 +151,7 @@ transition: all 0.3s ease;
     transition: all .3s ease;
     font-size: 18px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .btn-circle {
     padding: 7px;
@@ -244,25 +246,22 @@ margin-bottom: 60px;
 
 /*New arrivals*/
 .new-arrivals-title{
-    text-align: center;
     margin-bottom: 20px;
 }
-.new-context {
-    cursor: pointer;
-    text-align: center;
-}
+
 .product-card {
-    position: relative;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .new-context img {
 width: 100%;
 height: auto;
 margin-bottom: 20px;
 }
+
 .new-context h3{
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom:5px;
     text-transform: uppercase;
     transition: all .3s ease
@@ -272,12 +271,12 @@ margin-bottom: 20px;
 }
 .new-context p:last-of-type {
     color: var(--secondary-color);
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
+    margin: 10px 0;
+    padding-top: 10px;
 }
-.new-context i {
-    font-size: 12px;
-}
+
 .top {
     position: absolute;
     display: flex;
@@ -295,9 +294,16 @@ margin-bottom: 20px;
     position: absolute;
     bottom:40px;
 }
+.badges-group a {
+    margin-left: 10px;
+}
 #badges {
     transition: all .3s ease;
     font-size: 16px;
+}
+
+.caomparison-checkbox {
+    margin: 10px 0;
 }
 
 
