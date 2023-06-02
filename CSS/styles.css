@@ -145,14 +145,22 @@ overflow: hidden;
 /* Buttons */
 .btn {
     border-radius: 5px;
-    background-color: var(--accent-color);
-    color: var(--bg-color);
-    padding: 15px 30px;
     transition: all .3s ease;
-    font-size: 18px;
     text-transform: uppercase;
     cursor: pointer;
 }
+.btn-accent {
+    font-size: 18px;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    padding: 15px 30px;
+}
+
+.btn-login {
+background-color: transparent  ;
+color: #282828;
+}
+
 .btn-circle {
     padding: 7px;
     border-radius: 100%;
