@@ -166,7 +166,8 @@ color: #282828;
     border-radius: 100%;
     width: 30px;
     height: 30px;
-    opacity: 50%;
+    opacity: 20%;
+    transition: all .3s;
 }
 
 .btn-circle:hover #badges {
@@ -268,6 +269,7 @@ height: auto;
 margin-bottom: 20px;
 }
 
+
 .new-context h3{
     font-size: 18px;
     margin-bottom:5px;
@@ -310,6 +312,12 @@ margin-bottom: 20px;
     font-size: 16px;
 }
 
+.new-context:hover  .btn-circle{
+opacity: 60%;  
+  }
+.new-context:hover  .badges-group a {
+    margin-left: 15px;
+}
 .caomparison-checkbox {
     margin: 10px 0;
 }
