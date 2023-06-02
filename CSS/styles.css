@@ -88,7 +88,10 @@ transition: all 0.3s ease;
     display:flex;
     align-items: center;
 }
-
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
 .navbar-icons i {
     font-size: 20px;
     margin-left: 3px;
@@ -156,9 +159,19 @@ overflow: hidden;
     padding: 15px 30px;
 }
 
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
 .btn-login {
-background-color: transparent  ;
-color: #282828;
+    background-color: transparent  ;
+    color: #282828;
+    padding: 5px;
+}
+    
+.btn-login:hover {
+    background-color: var(--accent-color)  ;
+    color: var(--bg-color);
 }
 
 .btn-circle {
@@ -169,12 +182,9 @@ color: #282828;
     opacity: 20%;
     transition: all .3s;
 }
-
+        
 .btn-circle:hover #badges {
     transform: scale(1.1)
-}
-.btn:hover {
-    background-color: var(--secondary-color);
 }
 
 
@@ -207,11 +217,12 @@ margin-bottom: 60px;
     width: 45vw;
     border-radius: 5px;
 }
-.grid-container-double p {
+#article-txt {
     line-height: 2;
     padding-top: 50px;
+    letter-spacing: 1px;
 }
-.grid-container-double p::first-letter {
+#article-txt::first-letter {
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
