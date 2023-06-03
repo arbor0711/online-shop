@@ -214,17 +214,17 @@ margin-bottom: 60px;
 
 /* Article */
 .grid-container-double img {
-    width: 45vw;
+    width: 40vw;
     border-radius: 5px;
+    padding-left: 20px;
 }
 #article-txt {
     line-height: 2;
     padding-top: 50px;
-    letter-spacing: 1px;
+    letter-spacing: .75px;
 }
 #article-txt::first-letter {
     font-size: 24px;
-    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -267,6 +267,7 @@ margin-bottom: 60px;
 /*New arrivals*/
 .new-arrivals-title{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .product-card {
