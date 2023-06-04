@@ -187,6 +187,38 @@ overflow: hidden;
     transform: scale(1.1)
 }
 
+/* Banner */
+.banner {
+    display: grid;
+    grid-template-areas: 
+        "left middle-top right right"
+        "left middle-top right right"
+        "left middle-bottom right right"
+        "left middle-bottom right right"
+        "left middle-bottom right right"
+    ;
+    height: min-content;
+    }
+
+.banner-pic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+
+.left {
+    grid-area: left;
+}
+.middle-top {
+    grid-area: middle-top;
+}
+.middle-bottom {
+    grid-area: middle-bottom;
+}
+.right {
+    grid-area: right;
+}
+
 
 /* Hero  image */
 .hero-image {
