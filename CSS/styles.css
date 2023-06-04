@@ -219,6 +219,15 @@ overflow: hidden;
     grid-area: right;
 }
 
+body:has(.right:hover) .banner {
+    grid-template-areas: "right right right "
+    "right right right "
+    "right right right "
+    "right right right "
+    "right right right "    ;
+  }
+
+
 
 /* Hero  image */
 .hero-image {
